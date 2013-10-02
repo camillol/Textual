@@ -50,7 +50,7 @@
 #endif
 
 #if TXLoadMacOSVersionSpecificFeatures
- 	#if defined(AVAILABLE_MAC_OS_X_VERSION_10_9_AND_LATER)
+ 	#if MAC_OS_X_VERSION_MAX_ALLOWED > MAC_OS_X_VERSION_10_8
  		#define TXSystemIsMacOSMavericksOrNewer
  	#endif
 #endif
